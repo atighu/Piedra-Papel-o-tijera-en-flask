@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijera</h1>
+    </header>
+    <form method="POST" action="/play">
+        <button name="choice" value="Piedra"><img src="https://previews.123rf.com/images/ylivdesign/ylivdesign1710/ylivdesign171005924/87823878-icono-de-diamante-ilustraci%C3%B3n-de-dibujos-animados-de-icono-de-vector-de-diamante-para-web.jpg"></button>
+        <button name="choice" value="Papel"><img src="https://w7.pngwing.com/pngs/476/26/png-transparent-airplane-paper-plane-drawing-paper-plane-angle-rectangle-triangle.png"></button>
+        <button name="choice" value="Tijera"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwmJEOmw1yxqJrC6xts9ncbDsIK_mbx1q0Q&usqp=CAU"></button>
+    </form>
+    <div id="resultado">
+        <p>{{ message }}</p>
+    </div>
+</body>
+</html>

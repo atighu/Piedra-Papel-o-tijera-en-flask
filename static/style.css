@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    background-color: rgba(14, 137, 178, 0.891);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 0px;
+}
+
+body {
+    background-color: rgb(159, 212, 212);
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgba(63, 168, 210, 0.704);
+    border-radius: 5px;
+    border: none;
+    width: 400px; 
+    height: 200px;
+    margin-right: 10px;
+    display: inline-block; 
+}
+button:hover {
+    background-color: lightblue; 
+    transition: 0.9s ease;
+    box-shadow: 0px 40px 6px rgba(87, 98, 228, 0.813);
+}
+p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(42, 42, 141);
+}
+img{
+    width: 100px;
+    height: 100px;
+
+}
+#result{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 1000px;
+}
+form{
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
